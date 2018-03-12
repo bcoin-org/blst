@@ -1,11 +1,11 @@
-# blist
+# blst
 
 Double linked list for javascript.
 
 ## Usage
 
 ``` js
-const blist = require('blist');
+const List = require('blst');
 ```
 
 ## Contribution and License Agreement

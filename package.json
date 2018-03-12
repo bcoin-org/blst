@@ -1,21 +1,21 @@
 {
-  "name": "blist",
+  "name": "blst",
   "version": "0.0.0",
   "description": "Double linked list for javascript",
   "keywords": [
     "list"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/blist.git",
-  "homepage": "https://github.com/bcoin-org/blist",
+  "repository": "git://github.com/bcoin-org/blst.git",
+  "homepage": "https://github.com/bcoin-org/blst",
   "bugs": {
-    "url": "https://github.com/bcoin-org/blist/issues"
+    "url": "https://github.com/bcoin-org/blst/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
-  "main": "./lib/blist.js",
+  "main": "./lib/blst.js",
   "scripts": {
-    "browserify": "browserify -s blist lib/blist.js | uglifyjs -c > blist.js",
-    "clean": "rm -f blist.js",
+    "browserify": "browserify -s blst lib/blst.js | uglifyjs -c > blst.js",
+    "clean": "rm -f blst.js",
     "lint": "eslint lib/ test/ || exit 0",
     "test": "mocha --reporter spec test/*-test.js",
     "webpack": "webpack --config webpack.config.js"
