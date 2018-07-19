@@ -1,6 +1,6 @@
 {
   "name": "blst",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Double linked list for javascript",
   "keywords": [
     "list"
